@@ -1,0 +1,35 @@
+.form_control{
+    height: 40px;
+    width: 50%;
+  }
+  
+  .main_div{
+    text-align: center;
+    justify-content: center;
+    width: 40%;
+    height: 500px;
+    margin: auto;
+    background: linear-gradient(180deg, #FFFFFF 0%, #000000 100%), linear-gradient(90deg, #FFFFFF 0%, #000000 100%), #00FFFF;
+  background-blend-mode: multiply, screen, normal;
+    color: white;
+    margin-top: 8%;
+    box-shadow:  inset 0 0 10px #000000;
+    
+  
+  }
+  .label{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .heading{
+    font-size: 35px;
+  }
+  .signup_btn{
+    width: 14%;
+    height: 40px;
+    color: white;
+    /* background-color: ; */
+    background-color: teal;
+    border-radius: 8px;
+    
+  }
