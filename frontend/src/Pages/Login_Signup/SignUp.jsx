@@ -15,7 +15,7 @@ const SignUp = () => {
     if (fName && lName && email && password) {
       console.log(fName,lName,email,password);
       await axios
-        .post("http://localhost:8080/register", {
+        .post("https://evfy.onrender.com/register", {
           fName: fName,
           lName: lName,
           email: email,

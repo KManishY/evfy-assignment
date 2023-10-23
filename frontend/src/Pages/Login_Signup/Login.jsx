@@ -13,7 +13,7 @@ const Login = () => {
     if (email && password) {
       console.log(email,password);
       await axios
-        .post("http://localhost:8080/login", {
+        .post("https://evfy.onrender.com/login", {
           email: email,
           password: password,
         })
